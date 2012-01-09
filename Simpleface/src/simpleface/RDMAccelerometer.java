@@ -1,4 +1,5 @@
-package Accelerometer;
+package simpleface;
+
 
 
 public class RDMAccelerometer {

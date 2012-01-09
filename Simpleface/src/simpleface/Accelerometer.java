@@ -1,13 +1,11 @@
-package Accelerometer;
+package simpleface;
+
 
 
 public class Accelerometer {
 	
 	private RDMAccelerometer RDM;
-	
 	private int intTolerance = 10;
-	
-	
 	private final int intRANGE = 100;
 	
 	public Accelerometer (){

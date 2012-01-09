@@ -1,18 +1,15 @@
-package Accelerometer;
+package simpleface;
 
 
-import java.util.ArrayList;
-import java.awt.*;
 import javax.swing.*;
 import wiiremotej.*;
 import wiiremotej.event.*;
-import javax.sound.sampled.*;
 import java.io.*;
 
 public class RDXAccelerometer extends WiiRemoteAdapter
 {
     private boolean accelerometerSource = true;
-    private boolean lastSource = true;
+    //private boolean lastSource = true;
     
     private boolean mouseTestingOn;
     private int status = 0;
@@ -255,7 +252,6 @@ public class RDXAccelerometer extends WiiRemoteAdapter
             
             if (evt.isPressed(WRButtonEvent.HOME))
             {
-                boolean lightChanged = false;
                 if (evt.wasPressed(WRButtonEvent.A + WRButtonEvent.B))
                 {
                     remote.disconnect();
