@@ -23,7 +23,7 @@
  * @version		##version##
  */
 
-package simpleface;
+package test;
 
 
 import processing.core.*;
